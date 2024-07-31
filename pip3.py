@@ -9,8 +9,7 @@ from scipy.signal import find_peaks, correlate # Import the find_peaks and corre
 import pandas as pd # Import the Pandas library for data manipulation
 
 # Path to your AVI file (replace with path)
-avi_path = r"\\?\E:\2024_06_Neuron_wGlials_Astros_tesing\20240620_Astros_Neurons_MFW_Geo_96wells_widefield_YanJ\Mouse_glials\Glial_140\Glial_140_MFW\20240626_Glial140_SW1Neurons300_Day47_MFW_WF5min_96wells_A5_YanJ\20240626_Glial140_SW1Neurons300_Day47_MFW_WF5min_96wells_A5_YanJ.avi"
-
+avi_path = r
 
 # Open the video file
 cap = cv2.VideoCapture(avi_path)
